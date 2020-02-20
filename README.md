@@ -32,12 +32,21 @@ With dark theme:
 - For light themes:
   - settings will be available in a next release
 
+### Vsix
+
+In the `publish` directory there is the vsix file of the extension.
+
+You can install the extension manually with `code --install-extension pby-highlight-vscode-1.0.0.vsix`
 
 ### Known Issues
 
 IAST highlighting currently dont work with multilines
 
 ### Release Notes
+
+### 1.0.1
+
+Added vsix file
 
 ### 1.0.0
 

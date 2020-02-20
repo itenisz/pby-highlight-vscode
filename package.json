@@ -2,7 +2,7 @@
     "name": "pby-highlight-vscode",
     "displayName": "Pby format highlight for scriptures",
     "description": "Pby format highlight for scriptures in markdown and html",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "itenisz",
     "engines": {
         "vscode": "^1.30.0"
