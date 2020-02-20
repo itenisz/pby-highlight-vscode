@@ -1,0 +1,37 @@
+{
+    "name": "pby-highlight-vscode",
+    "displayName": "Pby format highlight for scriptures",
+    "description": "Pby format highlight for scriptures in markdown and html",
+    "version": "1.0.0",
+    "publisher": "itenisz",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "keywords": [
+        "pby",
+        "highlight",
+        "scripture",
+        "scriptures"
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/itenisz/pby-highlight-vscode.git"
+    },
+    "icon": "images/OM128.png",
+    "contributes": {
+        "grammars": [
+            {
+                "path": "./syntaxes/pby_injection.json",
+                "scopeName": "pby.injection",
+                "injectTo": [
+                    "text.html",
+                    "text.html.derivative",
+                    "text.html.markdown"
+                ]
+            }
+        ]
+    }
+}

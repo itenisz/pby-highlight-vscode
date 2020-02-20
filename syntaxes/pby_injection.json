@@ -1,0 +1,40 @@
+{
+	"fileTypes": [],
+	"injectionSelector": "L:text.html",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "string.regexp.pby",
+					"match": "([\u0900-\u097F]+)"
+				},
+				{
+					"name": "support.class.pby",
+					"match": "\\_\\(([^\\(\\)]+)\\)\\_"
+				},
+				{
+					"name": "invalid.pby",
+					"match": "\\(\\+([^\\(\\)]+)\\+\\)"
+				},
+				{
+					"name": "string.quoted.single.pby",
+					"match": "\\(([^\\(\\)]+)\\)"
+				},
+				{
+					"match": "([^\u0900-\u097F\\s\\<\\>])([^\u0900-\u097F\\(\\)]+?)((?:\\|{1,})(?:[0-9]+)*(?:\\|{1,})*)",
+					"captures" : {
+						"1": { "name" : "comment.pby" },
+						"2": { "name" : "comment.pby" },
+						"3": { "name" : "comment.pby.light" }
+					}
+				}
+			]
+		}
+	},
+	"scopeName": "pby.injection"
+}

@@ -1,0 +1,55 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "support.class.pby",
+                "settings": {
+                    "foreground": "#73dc9f",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "string.regexp.pby",
+                "settings": {
+                    "foreground": "#a2314b",
+                }
+            },
+            {
+                "scope": "invalid.pby",
+                "settings": {
+                    "foreground": "#c64e4e",
+                }
+            },
+            {
+                "scope": "string.quoted.single.pby",
+                "settings": {
+                    "foreground": "#bf8879",
+                }
+            },
+            {
+                "scope": "comment.pby",
+                "settings": {
+                    "foreground": "#429648",
+                }
+            },
+            {
+                "scope": "comment.pby.light",
+                "settings": {
+                    "foreground": "#56cb5e",
+                }
+            },
+            {
+                "scope": "markup.bold",
+                "settings": {
+                    "foreground": "#5e8e73",
+                }
+            },
+            {
+                "scope": "text.html",
+                "settings": {
+                    "foreground": "#a1bfad",
+                }
+            }
+        ]
+    }
+}
