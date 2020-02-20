@@ -36,7 +36,7 @@ With dark theme:
 
 In the `publish` directory there is the vsix file of the extension.
 
-You can install the extension manually with `code --install-extension pby-highlight-vscode-1.0.0.vsix`
+You can install the extension manually with `code --install-extension pby-highlight-vscode-1.0.1.vsix`
 
 ### Known Issues
 
